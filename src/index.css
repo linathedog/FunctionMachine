@@ -196,7 +196,7 @@ code {
 }
 
 .overlay {
-  z-index:100;
+  z-index:5;
   background-color:rgba(117, 117, 117, 0.5);
   position: absolute;
   width:100vw;
@@ -204,14 +204,16 @@ code {
 }
 .text-box{
   background-color: white;
+  border: 2px solid #2fbae0;
   border-radius: 25px;
   width:35vw;
+  padding-top: 0.7vw;
   position: absolute;
-  bottom:0;
-  right:0;
+  bottom:1vw;
+  right:1vw;
   float:right;
   color:#185d70;
-  font-size: 2.5vw;
+  font-size: 2vw;
 
 }
 .guide-button-next {
@@ -228,12 +230,68 @@ code {
   width:30vw;
   float:left;
 }
-.guide-arrow {
-  position: absolute;
-  font-size:7vw;
-  color: #e02887;
+
+.arrow1 {
 
 }
-.arrow1 {
+
+.pop-1 {
+  position: absolute;
+  top:21vw;
+  left:13.7vw;
+}
+.pop-2 {
+  position: absolute;
+  top:21vw;
+  left:50vw;
+}
+.pop-3 {
+  position: absolute;
+  top:21vw;
+  right:13.7vw;
+}
+.pop-4 {
+  position:absolute;
+  top:32vw;
+  right:47vw;
+}
+.guide-container{
+  position:absolute;
+  right:2vw;
+  font-size: 2vw;
+  color:#185d70;
+}
+.guide-container:hover {
+  color: #e02887;
+}
+
+.close-container {
+  margin-right:0.3vw;
+  width:5vw;
+  font-size: 3vw;
+  float:right;
+  color:rgba(3, 3, 3, 0.8);
+
+
+}
+.close-container svg:hover{
+  color:rgba(3, 3, 3, 0.5);
+}
+.win-container{
+  top:0;
+  z-index:5;
+  background-color:rgba(117, 117, 117, 0);
+  position: absolute;
+  width:100vw;
+  height:100vh;
+
+}
+.win-gif {
+  left:20vw;
+  width:60vw;
+  position: absolute;
+  bottom: 0;
+}
+.overlay {
 
 }
